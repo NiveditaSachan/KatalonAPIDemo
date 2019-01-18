@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserRegistration,,,2019-01-18 10:25:39,2019-01-18 10:25:41,1.195s,PASSED
+,,,,,,
+Test Cases/UserRegistration/RegistrationFailure,,,2019-01-18 10:25:40,2019-01-18 10:25:40,0.472s,PASSED
+return null,,,2019-01-18 10:25:40,2019-01-18 10:25:40,0.001s,PASSED
+,,,,,,
+Test Cases/UserRegistration/registrationSuccess,,,2019-01-18 10:25:40,2019-01-18 10:25:40,0.167s,PASSED
+return null,,,2019-01-18 10:25:40,2019-01-18 10:25:40,0.003s,PASSED

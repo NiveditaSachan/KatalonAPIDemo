@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserRegistration" time="1" tests="2" failures="0" errors="0">
+   <testsuite name="UserRegistration" tests="2" failures="0" errors="0" time="1" timestamp="2019-01-18 10:25:39" hostname="nivedita - 192.168.0.103" id="Test Suites/UserRegistration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonAPIDemo/KatalonAPIDemo/Reports/UserRegistration/20190118_102537"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonAPIDemo/KatalonAPIDemo/Reports/UserRegistration/20190118_102537/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.103"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/UserRegistration/RegistrationFailure" classname="Test Cases/UserRegistration/RegistrationFailure" status="PASSED">
+         <system-out><![CDATA[2019-01-18 10:25:40 - [TEST_CASE][PASSED] - Test Cases/UserRegistration/RegistrationFailure: Test Cases/UserRegistration/RegistrationFailure
+
+2019-01-18 10:25:40 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserRegistration/registrationSuccess" classname="Test Cases/UserRegistration/registrationSuccess" status="PASSED">
+         <system-out><![CDATA[2019-01-18 10:25:40 - [TEST_CASE][PASSED] - Test Cases/UserRegistration/registrationSuccess: Test Cases/UserRegistration/registrationSuccess
+
+2019-01-18 10:25:40 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-18 10:25:39 - [TEST_SUITE][PASSED] - UserRegistration: Test Cases/UserRegistration/registrationSuccess]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

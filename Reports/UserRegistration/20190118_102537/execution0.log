@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-18T10:25:39</date>
+  <millis>1547787339935</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/UserRegistration</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">UserRegistration</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/UserRegistration</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:39</date>
+  <millis>1547787339960</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = nivedita - 192.168.0.103</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">nivedita - 192.168.0.103</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:39</date>
+  <millis>1547787339963</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:39</date>
+  <millis>1547787339964</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.103</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.103</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:39</date>
+  <millis>1547787339965</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340324</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/UserRegistration/RegistrationFailure</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/UserRegistration/RegistrationFailure</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/UserRegistration/RegistrationFailure</property>
+  <property name="source">\\Users\\nivedita\\git\\KatalonAPIDemo\\KatalonAPIDemo\\Test Cases\\UserRegistration\\RegistrationFailure.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340793</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340794</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340795</millis>
+  <sequence>9</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/UserRegistration/RegistrationFailure</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340796</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/UserRegistration/RegistrationFailure</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340803</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/UserRegistration/registrationSuccess</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/UserRegistration/registrationSuccess</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/UserRegistration/registrationSuccess</property>
+  <property name="source">\\Users\\nivedita\\git\\KatalonAPIDemo\\KatalonAPIDemo\\Test Cases\\UserRegistration\\registrationSuccess.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340965</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return null</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">-1</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340968</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340968</millis>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/UserRegistration/registrationSuccess</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T10:25:40</date>
+  <millis>1547787340970</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/UserRegistration/registrationSuccess</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T10:25:41</date>
+  <millis>1547787341130</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/UserRegistration</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
