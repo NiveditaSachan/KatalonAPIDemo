@@ -13,7 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequestAndVerify(findTestObject('User/UserRegistrationFailure'))
+responseSingleUser = WS.sendRequestAndVerify(findTestObject('User/SingleUser', [('singleUser') : GlobalVariable.singleuser]))
 
-WS.verifyResponseStatusCode(response, 400)
+def slurper = new groovy.json.JsonSlurper()
 
+def output = slurper.parseText(responseSingleUser.getResponseBodyContent())
+
+def value = output.data.id
+
+GlobalVariable.singleuser = value
+
+Res = WS.sendRequestAndVerify(findTestObject('User/deleteUser'))
+
+println("Res is "+ Res.getStatusCode())

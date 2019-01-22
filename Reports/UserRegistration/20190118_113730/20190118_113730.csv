@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserRegistration,,,2019-01-18 11:37:35,2019-01-18 11:37:41,6.337s,PASSED
+,,,,,,
+Test Cases/UserRegistration/RegistrationFailure,,,2019-01-18 11:37:36,2019-01-18 11:37:40,4.556s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRegistrationFailure""))",,,2019-01-18 11:37:36,2019-01-18 11:37:40,3.880s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-01-18 11:37:40,2019-01-18 11:37:40,0.015s,PASSED
+,,,,,,
+Test Cases/UserRegistration/registrationSuccess,,,2019-01-18 11:37:40,2019-01-18 11:37:41,1.079s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRegistration""))",,,2019-01-18 11:37:41,2019-01-18 11:37:41,0.891s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-01-18 11:37:41,2019-01-18 11:37:41,0.002s,PASSED

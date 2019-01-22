@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ListUsers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55067ec6-0391-4b12-8ccb-59456822ceeb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.firstNamePath</defaultValue>
+      <description></description>
+      <id>cbffbf70-ebf7-4304-bca8-a916d6c4528f</id>
+      <masked>false</masked>
+      <name>firstNamePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.firstName</defaultValue>
+      <description></description>
+      <id>7c9c0523-b534-4f14-af63-860500740225</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.lastnamePath</defaultValue>
+      <description></description>
+      <id>a2632edd-f54a-43b9-af86-757402c3ed86</id>
+      <masked>false</masked>
+      <name>lastNamePath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.lastName</defaultValue>
+      <description></description>
+      <id>6235249e-0429-40e0-a084-c8d4e8dec77c</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

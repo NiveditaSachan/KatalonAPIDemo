@@ -13,7 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequestAndVerify(findTestObject('User/UserRegistrationFailure'))
+response = WS.sendRequestAndVerify(findTestObject('User/LIST USERS'))
 
-WS.verifyResponseStatusCode(response, 400)
+WS.verifyElementPropertyValue(response, GlobalVariable.firstNamePath, GlobalVariable.firstName)
+
+WS.verifyElementPropertyValue(response, GlobalVariable.lastnamePath, GlobalVariable.lastName)
 

@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>UserRegistration</name>
+   <name>deleteUser</name>
    <tag></tag>
-   <elementGuidId>a704a915-6123-42dd-9bde-78e609834443</elementGuidId>
+   <elementGuidId>2870ec57-8243-419c-b514-09a38e62314d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;sydney@fife\&quot;,\n    \&quot;password\&quot;: \&quot;pistol\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://reqres.in/api/register?</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://reqres.in/api/users/{singleuser}?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -44,7 +37,8 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
 
+WS.verifyResponseStatusCode(response, 204)
 
-WS.verifyElementPropertyValue(response, 'issues[0].fields.project.key', 'KTP')</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(204)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

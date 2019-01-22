@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequestAndVerify(findTestObject('UserRegistration'))
+response = WS.sendRequestAndVerify(findTestObject('User/UserRegistration'))
 
 WS.verifyResponseStatusCode(response, 201)
 

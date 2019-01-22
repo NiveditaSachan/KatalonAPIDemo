@@ -13,7 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequestAndVerify(findTestObject('User/UserRegistrationFailure'))
+response1 = WS.sendRequestAndVerify(findTestObject('User/LIST USERS'))
 
-WS.verifyResponseStatusCode(response, 400)
+def slurper = new groovy.json.JsonSlurper()
+
+def result = slurper.parseText(response1.getResponseBodyContent())
+
+def value = result.data[1].first_name
+
+println('value is  ' + value)
+
+GlobalVariable.userName = value
+
+println('Global variable is : ' + GlobalVariable.userName)
+
+response2 = WS.sendRequestAndVerify(findTestObject('User/UpdateUser', [('userName') : GlobalVariable.userName]))
+
+result2 = slurper.parseText(response2.getResponseBodyContent())
+
+def value2 = result2.name
+
+println('value2 : ' + value2)
 
