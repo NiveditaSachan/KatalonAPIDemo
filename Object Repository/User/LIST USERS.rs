@@ -60,7 +60,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-WS.verifyElementPropertyValue(response, 'data[1].first_name', &quot;Charles&quot;)
-WS.verifyElementPropertyValue(response, 'page', 2)</verificationScript>
+
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

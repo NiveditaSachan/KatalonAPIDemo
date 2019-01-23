@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Listusers,,,2019-01-22 14:37:32,2019-01-22 14:37:40,8.058s,PASSED
+,,,,,,
+Test Cases/ListUsers/ListUsers,,,2019-01-22 14:37:33,2019-01-22 14:37:38,5.213s,PASSED
+"response = sendRequestAndVerify(findTestObject(""User/LIST USERS""))",,,2019-01-22 14:37:33,2019-01-22 14:37:38,4.656s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, firstName)",,,2019-01-22 14:37:38,2019-01-22 14:37:38,0.059s,PASSED
+"verifyElementPropertyValue(response, lastnamePath, lastName)",,,2019-01-22 14:37:38,2019-01-22 14:37:38,0.023s,PASSED
+,,,,,,
+Test Cases/ListUsers/ListUsers,,,2019-01-22 14:37:38,2019-01-22 14:37:39,1.384s,PASSED
+"response = sendRequestAndVerify(findTestObject(""User/LIST USERS""))",,,2019-01-22 14:37:38,2019-01-22 14:37:39,1.326s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, firstName)",,,2019-01-22 14:37:39,2019-01-22 14:37:39,0.017s,PASSED
+"verifyElementPropertyValue(response, lastnamePath, lastName)",,,2019-01-22 14:37:39,2019-01-22 14:37:39,0.020s,PASSED
+,,,,,,
+Test Cases/ListUsers/ListUsers,,,2019-01-22 14:37:39,2019-01-22 14:37:40,1.001s,PASSED
+"response = sendRequestAndVerify(findTestObject(""User/LIST USERS""))",,,2019-01-22 14:37:39,2019-01-22 14:37:40,0.957s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, firstName)",,,2019-01-22 14:37:40,2019-01-22 14:37:40,0.017s,PASSED
+"verifyElementPropertyValue(response, lastnamePath, lastName)",,,2019-01-22 14:37:40,2019-01-22 14:37:40,0.015s,PASSED

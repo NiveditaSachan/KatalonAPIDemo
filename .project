@@ -15,33 +15,6 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>kat-1808100284733713976.groovy</name>
-			<type>1</type>
-			<location>/var/folders/1p/92gdr4951qsfs2gqq4hyvcfm0000gn/T/Katalon/Web Services/kat-1808100284733713976.groovy</location>
-		</link>
-		<link>
-			<name>kat-2205211703142913336.groovy</name>
-			<type>1</type>
-			<location>/var/folders/1p/92gdr4951qsfs2gqq4hyvcfm0000gn/T/Katalon/Web Services/kat-2205211703142913336.groovy</location>
-		</link>
-		<link>
-			<name>kat-4251306379850444040.groovy</name>
-			<type>1</type>
-			<location>/var/folders/1p/92gdr4951qsfs2gqq4hyvcfm0000gn/T/Katalon/Web Services/kat-4251306379850444040.groovy</location>
-		</link>
-		<link>
-			<name>kat-5506520753215837185.groovy</name>
-			<type>1</type>
-			<location>/var/folders/1p/92gdr4951qsfs2gqq4hyvcfm0000gn/T/Katalon/Web Services/kat-5506520753215837185.groovy</location>
-		</link>
-		<link>
-			<name>kat-7836287925553688812.groovy</name>
-			<type>1</type>
-			<location>/var/folders/1p/92gdr4951qsfs2gqq4hyvcfm0000gn/T/Katalon/Web Services/kat-7836287925553688812.groovy</location>
-		</link>
-	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1547785030352</id>
