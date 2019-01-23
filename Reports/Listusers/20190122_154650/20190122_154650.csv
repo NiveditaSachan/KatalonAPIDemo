@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Listusers,,,2019-01-22 15:46:52,2019-01-22 15:47:00,7.769s,PASSED
+,,,,,,
+Test Cases/ListUsers/ListUsers,,,2019-01-22 15:46:53,2019-01-22 15:46:57,4.656s,PASSED
+"response = sendRequestAndVerify(findTestObject(""User/LIST USERS""))",,,2019-01-22 15:46:53,2019-01-22 15:46:57,4.070s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, firstName)",,,2019-01-22 15:46:57,2019-01-22 15:46:57,0.062s,PASSED
+"verifyElementPropertyValue(response, lastnamePath, lastName)",,,2019-01-22 15:46:57,2019-01-22 15:46:57,0.022s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-01-22 15:46:57,2019-01-22 15:46:57,0.011s,PASSED
+val = response.getStatusCode(),,,2019-01-22 15:46:57,2019-01-22 15:46:57,0.009s,PASSED
+"println(""value of status code is : "" + val)",,,2019-01-22 15:46:57,2019-01-22 15:46:57,0.004s,PASSED
+,,,,,,
+Test Cases/ListUsers/ListUsers,,,2019-01-22 15:46:57,2019-01-22 15:46:59,1.563s,PASSED
+"response = sendRequestAndVerify(findTestObject(""User/LIST USERS""))",,,2019-01-22 15:46:57,2019-01-22 15:46:59,1.492s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, firstName)",,,2019-01-22 15:46:59,2019-01-22 15:46:59,0.020s,PASSED
+"verifyElementPropertyValue(response, lastnamePath, lastName)",,,2019-01-22 15:46:59,2019-01-22 15:46:59,0.019s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-01-22 15:46:59,2019-01-22 15:46:59,0.002s,PASSED
+val = response.getStatusCode(),,,2019-01-22 15:46:59,2019-01-22 15:46:59,0.003s,PASSED
+"println(""value of status code is : "" + val)",,,2019-01-22 15:46:59,2019-01-22 15:46:59,0.001s,PASSED
+,,,,,,
+Test Cases/ListUsers/ListUsers,,,2019-01-22 15:46:59,2019-01-22 15:47:00,1.089s,PASSED
+"response = sendRequestAndVerify(findTestObject(""User/LIST USERS""))",,,2019-01-22 15:46:59,2019-01-22 15:47:00,1.040s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, firstName)",,,2019-01-22 15:47:00,2019-01-22 15:47:00,0.017s,PASSED
+"verifyElementPropertyValue(response, lastnamePath, lastName)",,,2019-01-22 15:47:00,2019-01-22 15:47:00,0.016s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-01-22 15:47:00,2019-01-22 15:47:00,0.002s,PASSED
+val = response.getStatusCode(),,,2019-01-22 15:47:00,2019-01-22 15:47:00,0.001s,PASSED
+"println(""value of status code is : "" + val)",,,2019-01-22 15:47:00,2019-01-22 15:47:00,0.001s,PASSED

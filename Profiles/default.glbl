@@ -16,22 +16,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Charles'</initValue>
+      <initValue>findTestData('ListUser')</initValue>
       <name>firstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Morris'</initValue>
+      <initValue>findTestData('ListUser')</initValue>
       <name>lastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'data[1].first_name'</initValue>
+      <initValue>findTestData('ListUser')</initValue>
       <name>firstNamePath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'data[1].last_name'</initValue>
+      <initValue>findTestData('ListUser')</initValue>
       <name>lastnamePath</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
